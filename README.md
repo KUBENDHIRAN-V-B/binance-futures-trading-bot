@@ -4,13 +4,13 @@ A simplified Python trading bot for Binance Futures Testnet supporting market, l
 
 ## Features
 
-✅ **Market Orders** - Instant execution at current market price
-✅ **Limit Orders** - Buy/sell at specified price with GTC (Good Till Cancel) support
-✅ **Stop-Limit Orders** - Advanced order type with trigger price and limit price
-✅ **Comprehensive Logging** - All API requests, responses, and errors logged to file
-✅ **CLI Interface** - User-friendly command-line interface with input validation
-✅ **Error Handling** - Robust exception handling for Binance API errors
-✅ **Testnet Support** - Configured for Binance Futures Testnet (USDT-M Futures)
+ **Market Orders** - Instant execution at current market price
+ **Limit Orders** - Buy/sell at specified price with GTC (Good Till Cancel) support
+ **Stop-Limit Orders** - Advanced order type with trigger price and limit price
+ **Comprehensive Logging** - All API requests, responses, and errors logged to file
+ **CLI Interface** - User-friendly command-line interface with input validation
+ **Error Handling** - Robust exception handling for Binance API errors
+ **Testnet Support** - Configured for Binance Futures Testnet (USDT-M Futures)
 
 ## Project Structure
 
@@ -199,19 +199,12 @@ The bot includes comprehensive error handling for:
 - python-dotenv 1.0.0
 - requests 2.31.0
 
-## Security Notes
-
-⚠️ **Never commit `.env` file to Git** - It's in .gitignore for security
-⚠️ **Keep API keys private** - Don't share your Binance API credentials
-⚠️ **Use Testnet first** - Always test on Binance Futures Testnet before mainnet
-⚠️ **Limit API permissions** - Create API keys with only trading permissions enabled
-
 ## Bonus Features Implemented
 
-✅ **Stop-Limit Orders** - Advanced order type supporting trigger prices
-✅ **Comprehensive Logging** - File-based logging with detailed error tracking
-✅ **Input Validation** - Robust validation of all user inputs
-✅ **Order Status Tracking** - Methods to check and cancel orders
+ **Stop-Limit Orders** - Advanced order type supporting trigger prices
+ **Comprehensive Logging** - File-based logging with detailed error tracking
+ **Input Validation** - Robust validation of all user inputs
+ **Order Status Tracking** - Methods to check and cancel orders
 
 ## Testing
 
@@ -254,11 +247,3 @@ MIT License - Feel free to use this project for educational purposes.
 
 Developed as a Junior Python Developer assignment for Bajaj Angs Crypto Trading Bot Position.
 
-## Support
-
-For issues, questions, or contributions, please create a GitHub issue.
-
----
-
-**Last Updated:** December 2024
-**Testnet Status:** ✅ Fully Tested and Working
